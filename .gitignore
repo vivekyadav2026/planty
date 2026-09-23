@@ -1,0 +1,47 @@
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# ==========================================
+# PROTECT LIVE DATA (User Uploads, Sessions, Caches, Logs)
+# ==========================================
+# Do not push local database or environment configs
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# Ignore all user-uploaded files in storage
+/storage/app/public/*
+!/storage/app/public/.gitignore
+
+# Ignore all framework generated files (sessions, cache, views)
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+
+# Ignore all logs (so you don't overwrite live server logs)
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# If you have any custom upload folders inside public
+/public/uploads/*
+!/public/uploads/.gitignore

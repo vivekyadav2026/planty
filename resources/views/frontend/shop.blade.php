@@ -50,13 +50,15 @@
     </div>
   </div>
   <div class="mt-1">
-    <div class="pl-search-wrap position-relative d-flex mt-1">
-      <span class="pl-search-icon"><i class="bi bi-search"></i></span>
-      <input type="search" class="form-control pl-search-input pl-mobile-search" placeholder="Search products, brands..." value="{{ request('search') }}" autocomplete="off">
-      <button class="pl-search-btn" type="button" title="Search">
-        <i class="bi bi-arrow-right"></i>
-      </button>
-    </div>
+    <form action="{{ route('shop') }}" method="GET" class="m-0 p-0">
+      <div class="pl-search-wrap position-relative d-flex mt-1">
+        <span class="pl-search-icon"><i class="bi bi-search"></i></span>
+        <input type="search" name="search" class="form-control pl-search-input pl-mobile-search" placeholder="Search products, brands..." value="{{ request('search') }}" autocomplete="off">
+        <button class="pl-search-btn" type="submit" title="Search">
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </form>
   </div>
 </header>
 

@@ -5,10 +5,10 @@
       <!-- Brand & Info -->
       <div class="col-lg-4 mb-4">
         <a href="{{ route('home') }}" class="d-inline-flex align-items-center mb-3 text-decoration-none" style="color: #fff; font-size: 1.8rem; font-weight: 800;">
-          <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 32px; height: 32px; border-radius: 50%; object-fit: cover; margin-right: 8px;"> IndiNursery
+          <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 32px; height: 32px; border-radius: 50%; object-fit: cover; margin-right: 8px;"> IndianNursery
         </a>
         <p style="font-size: 0.95rem; color: #a3c4b0; line-height: 1.6; max-width: 350px;">
-          IndiNursery is your trusted nursery for premium indoor and outdoor plants. We bring nature to your doorstep with love and care.
+          IndianNursery is your trusted nursery for premium indoor and outdoor plants. We bring nature to your doorstep with love and care.
         </p>
         <div class="d-flex gap-3 mt-4">
           <a href="#" class="text-white d-flex align-items-center justify-content-center" style="width: 38px; height: 38px; background: rgba(255,255,255,0.1); border-radius: 50%; transition: background 0.3s;">
@@ -57,7 +57,7 @@
           <li><a href="{{ route('shipping') }}" class="text-decoration-none" style="color: #a3c4b0; transition: color 0.3s;">Shipping Policy</a></li>
         </ul>
         <div class="d-flex align-items-center gap-2" style="color: #a3c4b0;">
-          <i class="bi bi-envelope"></i> support@indinursery.com
+          <i class="bi bi-envelope"></i> support@IndianNursery.com
         </div>
       </div>
 
@@ -67,7 +67,7 @@
 
     <div class="row align-items-center">
       <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-        <p class="mb-0" style="color: #a3c4b0; font-size: 0.9rem;">&copy; {{ date('Y') }} IndiNursery. All Rights Reserved.</p>
+        <p class="mb-0" style="color: #a3c4b0; font-size: 0.9rem;">&copy; {{ date('Y') }} IndianNursery. All Rights Reserved.</p>
       </div>
       <div class="col-md-6 text-center text-md-end">
         <!-- Payment Icons Placeholder -->

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Admin Dashboard - {{ config('app.name', 'IndiNursery') }}</title>
+    <title>Admin Dashboard - {{ config('app.name', 'IndianNursery') }}</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/jpeg" href="{{ asset('favicon.jpg') }}">
+    <link rel="shortcut icon" type="image/jpeg" href="{{ asset('favicon.jpg') }}">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +38,7 @@
                 <div class="flex items-center space-x-3">
                     <i class="fa-solid fa-leaf text-3xl text-[#C49A6C]"></i>
                     <div>
-                        <h1 class="text-sm font-bold font-serif text-white uppercase tracking-wider leading-none">IndiNursery</h1>
+                        <h1 class="text-sm font-bold font-serif text-white uppercase tracking-wider leading-none">IndianNursery</h1>
                         <span class="text-[9px] text-[#C49A6C] uppercase font-bold tracking-widest block mt-1">Admin Portal</span>
                     </div>
                 </div>

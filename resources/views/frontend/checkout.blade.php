@@ -337,7 +337,7 @@
                                 <i class="fa-solid fa-location-dot text-amber-600"></i> Pickup Location:
                             </p>
                             <p class="text-slate-700 m-0 leading-relaxed font-medium">
-                                {{ \App\Models\Setting::get('site_address', 'IndiNursery Modification, Main Workshop, Haryana') }}
+                                {{ \App\Models\Setting::get('site_address', 'IndianNursery Modification, Main Workshop, Haryana') }}
                             </p>
                         </div>
 

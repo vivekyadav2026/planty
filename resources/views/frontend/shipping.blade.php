@@ -20,7 +20,7 @@
             <p class="text-xs text-gray-400">Last updated: July 8, 2026</p>
             
             <p>
-                Welcome to <strong>IndiNursery</strong>. We are committed to delivering our fresh, high-quality plants, seeds, and gardening essentials safely and efficiently right to your doorstep.
+                Welcome to <strong>IndianNursery</strong>. We are committed to delivering our fresh, high-quality plants, seeds, and gardening essentials safely and efficiently right to your doorstep.
             </p>
 
             <h2 class="text-xl font-serif font-bold text-gray-900 mt-8 mb-4">1. Shipping Coverage & Locations</h2>
@@ -60,7 +60,7 @@
 
             <h2 class="text-xl font-serif font-bold text-gray-900 mt-8 mb-4">6. Lost or Damaged Shipments</h2>
             <p>
-                In the rare event that a package is lost in transit or is delivered in a heavily damaged state, please contact us immediately at <strong>{{ \App\Models\Setting::get('site_email', 'support@indinursery.com') }}</strong>. We will work with the logistics partner to resolve the issue or dispatch a replacement order to you as soon as possible.
+                In the rare event that a package is lost in transit or is delivered in a heavily damaged state, please contact us immediately at <strong>{{ \App\Models\Setting::get('site_email', 'support@IndianNursery.com') }}</strong>. We will work with the logistics partner to resolve the issue or dispatch a replacement order to you as soon as possible.
             </p>
 
             <h2 class="text-xl font-serif font-bold text-gray-900 mt-8 mb-4">7. Contact Information</h2>
@@ -68,8 +68,8 @@
                 If you have any questions or queries regarding the shipping of your products, please reach out to us:
             </p>
             <ul class="list-disc pl-6 space-y-2 mt-2">
-                <li><strong>Brand Name:</strong> {{ \App\Models\Setting::get('site_name', 'IndiNursery') }}</li>
-                <li><strong>Email:</strong> {{ \App\Models\Setting::get('site_email', 'support@indinursery.com') }}</li>
+                <li><strong>Brand Name:</strong> {{ \App\Models\Setting::get('site_name', 'IndianNursery') }}</li>
+                <li><strong>Email:</strong> {{ \App\Models\Setting::get('site_email', 'support@IndianNursery.com') }}</li>
                 <li><strong>Address:</strong> {{ \App\Models\Setting::get('site_address', '12800 Northborough Dr, Houston, TX 77067') }}</li>
             </ul>
         </div>

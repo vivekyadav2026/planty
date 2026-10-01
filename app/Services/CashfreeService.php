@@ -63,13 +63,13 @@ class CashfreeService
 
         // Cashfree API strictly enforces https:// protocol on all webhook and callback endpoints
         if (str_starts_with($returnUrl, 'http://127.0.0.1') || str_starts_with($returnUrl, 'http://localhost')) {
-            $returnUrl = 'https://mahadevtractor.com/checkout/cashfree-callback?order_id={order_id}';
+            $returnUrl = 'https://indinursery.com/checkout/cashfree-callback?order_id={order_id}';
         } elseif (str_starts_with($returnUrl, 'http://')) {
             $returnUrl = 'https://' . substr($returnUrl, 7);
         }
 
         if (str_starts_with($notifyUrl, 'http://127.0.0.1') || str_starts_with($notifyUrl, 'http://localhost')) {
-            $notifyUrl = 'https://mahadevtractor.com/webhook/cashfree';
+            $notifyUrl = 'https://indinursery.com/webhook/cashfree';
         } elseif (str_starts_with($notifyUrl, 'http://')) {
             $notifyUrl = 'https://' . substr($notifyUrl, 7);
         }

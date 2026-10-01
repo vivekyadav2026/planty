@@ -167,7 +167,7 @@
 </style>
 
 <!-- Top Bar -->
-<div class="pl-top-bar" id="topPromoBar">
+<!-- <div class="pl-top-bar" id="topPromoBar">
   <div style="flex: 1; display: flex; align-items: center; gap: 20px; justify-content: center;">
     <i class="bi bi-chevron-left" style="cursor: pointer; opacity: 0.7;"></i>
     <span class="d-flex align-items-center gap-2">
@@ -176,7 +176,7 @@
     <i class="bi bi-chevron-right" style="cursor: pointer; opacity: 0.7;"></i>
   </div>
   <i class="bi bi-x-lg" style="cursor: pointer; font-size: 0.8rem;" onclick="document.getElementById('topPromoBar').style.display='none'"></i>
-</div>
+</div> -->
 
 <!-- ===================== DESKTOP HEADER (d-none d-lg-block) ===================== -->
 <header class="d-none d-lg-block" style="position: sticky; top: 0; z-index: 1020; box-shadow: 0 4px 10px rgba(0,0,0,0.03);">
@@ -186,13 +186,13 @@
     <!-- Contact Info -->
     <div class="pl-contact-info">
       <span>+91 98765 43210</span>
-      <span>support@indinursery.com</span>
+      <span>support@IndianNursery.com</span>
     </div>
 
     <!-- Logo -->
     <a href="{{ route('home') }}" class="pl-logo-area">
       <div class="pl-logo-icon"><img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 32px; height: 32px; border-radius: 50%; object-fit: cover;"></div>
-      <div class="pl-logo-text">IndiNursery</div>
+      <div class="pl-logo-text">IndianNursery</div>
       <div class="pl-logo-curve"></div>
     </a>
 
@@ -264,7 +264,7 @@
     <!-- Logo -->
     <a href="{{ route('home') }}" class="pl-logo-area" style="flex: 1; justify-content: center; text-align: center;">
       <div class="pl-logo-icon" style="font-size: 1.5rem;"><img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover; margin-bottom: 4px;"></div>
-      <div class="pl-logo-text" style="font-size: 1.2rem; white-space: nowrap;">IndiNursery</div>
+      <div class="pl-logo-text" style="font-size: 1.2rem; white-space: nowrap;">IndianNursery</div>
       <div class="pl-logo-curve" style="width: 40px; height: 3px;"></div>
     </a>
 
@@ -287,7 +287,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenuOffcanvas" style="width: 280px; z-index: 1055;">
   <div class="offcanvas-header border-bottom">
     <h5 class="offcanvas-title d-flex align-items-center gap-2" style="font-weight: 700; color: #111;">
-      <i class="bi bi-flower1" style="color: #7DA948;"></i> IndiNursery
+      <i class="bi bi-flower1" style="color: #7DA948;"></i> IndianNursery
     </h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>

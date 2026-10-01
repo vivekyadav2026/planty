@@ -244,8 +244,6 @@
     @endif
     
     <!-- Static Links -->
-    <a href="{{ url('/shop?highlight=sale') }}" class="pl-nav-link">Combos</a>
-    <a href="{{ url('/contact') }}" class="pl-nav-link">Bulk Order</a>
     <a href="{{ url('/dashboard') }}" class="pl-nav-link">Track Order</a>
   </div>
 </header>
@@ -322,8 +320,6 @@
       @endif
       </div>
       <li class="list-group-item border-0"><hr class="my-1"></li>
-      <li class="list-group-item border-0"><a href="{{ url('/shop?highlight=sale') }}" class="text-dark text-decoration-none fw-bold d-block py-1">Combos</a></li>
-      <li class="list-group-item border-0"><a href="{{ url('/contact') }}" class="text-dark text-decoration-none fw-bold d-block py-1">Bulk Order</a></li>
       <li class="list-group-item border-0"><a href="{{ url('/dashboard') }}" class="text-dark text-decoration-none fw-bold d-block py-1">Track Order</a></li>
     </ul>
 

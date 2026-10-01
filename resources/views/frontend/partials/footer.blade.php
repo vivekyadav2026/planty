@@ -5,7 +5,7 @@
       <!-- Brand & Info -->
       <div class="col-lg-4 mb-4">
         <a href="{{ route('home') }}" class="d-inline-flex align-items-center mb-3 text-decoration-none" style="color: #fff; font-size: 1.8rem; font-weight: 800;">
-          <i class="bi bi-flower1 me-2" style="color: var(--light-green, #D8F3DC);"></i> IndiNursery
+          <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 32px; height: 32px; border-radius: 50%; object-fit: cover; margin-right: 8px;"> IndiNursery
         </a>
         <p style="font-size: 0.95rem; color: #a3c4b0; line-height: 1.6; max-width: 350px;">
           IndiNursery is your trusted nursery for premium indoor and outdoor plants. We bring nature to your doorstep with love and care.

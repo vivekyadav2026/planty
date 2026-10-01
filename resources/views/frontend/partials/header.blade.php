@@ -191,7 +191,7 @@
 
     <!-- Logo -->
     <a href="{{ route('home') }}" class="pl-logo-area">
-      <div class="pl-logo-icon"><i class="bi bi-flower1"></i></div>
+      <div class="pl-logo-icon"><img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 32px; height: 32px; border-radius: 50%; object-fit: cover;"></div>
       <div class="pl-logo-text">IndiNursery</div>
       <div class="pl-logo-curve"></div>
     </a>
@@ -263,7 +263,7 @@
 
     <!-- Logo -->
     <a href="{{ route('home') }}" class="pl-logo-area" style="flex: 1; justify-content: center; text-align: center;">
-      <div class="pl-logo-icon" style="font-size: 1.5rem;"><i class="bi bi-flower1"></i></div>
+      <div class="pl-logo-icon" style="font-size: 1.5rem;"><img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover; margin-bottom: 4px;"></div>
       <div class="pl-logo-text" style="font-size: 1.2rem; white-space: nowrap;">IndiNursery</div>
       <div class="pl-logo-curve" style="width: 40px; height: 3px;"></div>
     </a>

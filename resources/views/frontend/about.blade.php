@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('title', 'About Us')
-@section('meta_title', 'About Us | Urban Nursery - Fresh & Bold Flavors')
-@section('meta_description', 'Discover the story behind Urban Nursery. We offer farm fresh certified plants, premium seeds, pots, and planters delivered to your door.')
-@section('meta_keywords', 'about Urban Nursery, organic plant nursery, fresh plants team, brand story, beautiful planters')
+@section('meta_title', 'About Us | IndiNursery - Fresh & Bold Flavors')
+@section('meta_description', 'Discover the story behind IndiNursery. We offer farm fresh certified plants, premium seeds, pots, and planters delivered to your door.')
+@section('meta_keywords', 'about IndiNursery, organic plant nursery, fresh plants team, brand story, beautiful planters')
 
 @section('content')
     <!-- Page Header -->
@@ -31,9 +31,9 @@
         <div class="text-center max-w-4xl mx-auto text-gray-600 mb-12 sm:mb-16 leading-relaxed min-h-[220px] px-2 sm:px-0">
             <!-- About Us Tab -->
             <div x-show="activeTab === 'about'" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform translate-y-2" x-transition:enter-end="opacity-100 transform translate-y-0">
-                <h3 class="text-xl sm:text-2xl font-serif font-bold text-gray-900 mb-2">Urban Nursery</h3>
+                <h3 class="text-xl sm:text-2xl font-serif font-bold text-gray-900 mb-2">IndiNursery</h3>
                 <p class="text-primary font-serif italic text-sm mb-4" style="color: #C49A6C;">“Bold Flavor. Fresh Ideas.” &bull; premium plants, seeds & Essentials</p>
-                <p class="text-sm sm:text-base">Urban Nursery is a premium plant and beverage brand committed to delivering bold flavors, handpicked fresh produce, and high-quality artisanal goods right to your doorstep. We combine fresh sourcing with modern quality standards to create an unmatched shopping experience.</p>
+                <p class="text-sm sm:text-base">IndiNursery is a premium plant and beverage brand committed to delivering bold flavors, handpicked fresh produce, and high-quality artisanal goods right to your doorstep. We combine fresh sourcing with modern quality standards to create an unmatched shopping experience.</p>
             </div>
 
             <!-- Our Story Tab -->
@@ -52,12 +52,12 @@
         <!-- Image Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 mb-12 sm:mb-20">
             <div class="bg-gray-50 rounded-2xl overflow-hidden h-64 sm:h-96 border border-gray-100 shadow-sm">
-                <img src="{{ asset('images/hero_banner.jpg') }}" alt="Urban Nursery Collection" class="w-full h-full object-cover">
+                <img src="{{ asset('images/hero_banner.jpg') }}" alt="IndiNursery Collection" class="w-full h-full object-cover">
             </div>
             <div class="flex flex-col gap-4 sm:gap-8">
                 <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 sm:p-6 h-36 sm:h-44 flex items-center justify-center shadow-sm">
                     <div class="text-center">
-                        <h4 class="font-bold font-serif text-emerald-900 text-base sm:text-lg mb-1">Urban Nursery QUALITY ASSURED</h4>
+                        <h4 class="font-bold font-serif text-emerald-900 text-base sm:text-lg mb-1">IndiNursery QUALITY ASSURED</h4>
                         <p class="text-[10px] text-emerald-700 font-sans tracking-wide uppercase">Farm Fresh & Certified</p>
                         <p class="text-xs sm:text-sm mt-2 sm:mt-3 text-gray-700 font-sans">Guaranteed <strong>100% Fresh & Authentic Products</strong></p>
                     </div>
@@ -68,7 +68,7 @@
                         <div class="absolute inset-0 bg-black/10 flex items-center justify-center font-bold text-base sm:text-lg text-white font-serif tracking-wider drop-shadow-md">SHOP ONLINE</div>
                     </div>
                     <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm border border-gray-100">
-                        <img src="{{ asset('images/modern_banner_new.png') }}" alt="Urban Nursery Store" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/modern_banner_new.png') }}" alt="IndiNursery Store" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                     
                     <div class="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden">
                         <button @click="openSection = openSection === 'why' ? null : 'why'" class="w-full px-6 py-4 text-left font-bold font-sans text-sm flex justify-between items-center transition focus:outline-none" :class="openSection === 'why' ? 'text-primary' : 'text-gray-900 hover:text-primary'">
-                            Why Choose Urban Nursery?
+                            Why Choose IndiNursery?
                             <i class="fa-solid text-[10px]" :class="openSection === 'why' ? 'fa-chevron-up' : 'fa-chevron-down'"></i>
                         </button>
                         <div x-show="openSection === 'why'" x-collapse class="px-6 pb-4 text-gray-650 text-xs font-sans leading-relaxed" style="display: none;">

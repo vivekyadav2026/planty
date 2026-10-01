@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('title', 'Contact Us')
-@section('meta_title', 'Contact Us | Urban Nursery - Support & Help')
-@section('meta_description', 'Contact the Urban Nursery team. Get in touch with us for questions regarding orders, product details, shipping or returns.')
-@section('meta_keywords', 'contact Urban Nursery, support, customer service phone, store email address, location')
+@section('meta_title', 'Contact Us | IndiNursery - Support & Help')
+@section('meta_description', 'Contact the IndiNursery team. Get in touch with us for questions regarding orders, product details, shipping or returns.')
+@section('meta_keywords', 'contact IndiNursery, support, customer service phone, store email address, location')
 
 @section('content')
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
@@ -73,7 +73,7 @@
                                 <div class="min-w-0">
                                     <h4 class="font-extrabold text-slate-800 text-[10px] uppercase tracking-wider">{{ __('Email Address') }}</h4>
                                     <p class="text-xs text-slate-900 font-bold mt-0.5 leading-normal">
-                                        {{ \App\Models\Setting::get('site_email', 'support@urbannursery.com') }}
+                                        {{ \App\Models\Setting::get('site_email', 'support@indinursery.com') }}
                                     </p>
                                 </div>
                             </div>

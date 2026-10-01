@@ -216,7 +216,7 @@
                         @if($order->delivery_type === 'self_pickup')
                             <div class="flex items-center gap-2.5 px-1 py-0.5">
                                 <i class="fa-solid fa-envelope text-xs text-gray-400"></i>
-                                <span class="text-[11px] sm:text-xs font-bold text-gray-700">{{ \App\Models\Setting::get('site_email', 'support@urbannursery.com') }}</span>
+                                <span class="text-[11px] sm:text-xs font-bold text-gray-700">{{ \App\Models\Setting::get('site_email', 'support@indinursery.com') }}</span>
                             </div>
                         @else
                             <div class="flex items-center gap-2.5 px-1 py-0.5">

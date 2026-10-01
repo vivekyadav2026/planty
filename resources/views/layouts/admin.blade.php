@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Admin Dashboard - {{ config('app.name', 'Urban Nursery') }}</title>
+    <title>Admin Dashboard - {{ config('app.name', 'IndiNursery') }}</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
@@ -38,7 +38,7 @@
                 <div class="flex items-center space-x-3">
                     <i class="fa-solid fa-leaf text-3xl text-[#C49A6C]"></i>
                     <div>
-                        <h1 class="text-sm font-bold font-serif text-white uppercase tracking-wider leading-none">Urban Nursery</h1>
+                        <h1 class="text-sm font-bold font-serif text-white uppercase tracking-wider leading-none">IndiNursery</h1>
                         <span class="text-[9px] text-[#C49A6C] uppercase font-bold tracking-widest block mt-1">Admin Portal</span>
                     </div>
                 </div>

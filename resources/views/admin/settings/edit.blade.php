@@ -33,14 +33,14 @@
             <!-- Site Name -->
             <div class="space-y-1.5">
                 <label class="text-xs font-bold text-slate-500 uppercase tracking-wider block">Shop Name</label>
-                <input type="text" name="site_name" value="{{ $settings['site_name'] ?? 'Urban Nursery' }}" placeholder="Urban Nursery"
+                <input type="text" name="site_name" value="{{ $settings['site_name'] ?? 'IndiNursery' }}" placeholder="IndiNursery"
                        class="w-full border border-slate-200 focus:ring-1 focus:ring-[#C49A6C] focus:border-[#C49A6C] rounded-xl text-sm px-4 py-2.5 bg-white">
             </div>
 
             <!-- Site Email -->
             <div class="space-y-1.5">
                 <label class="text-xs font-bold text-slate-500 uppercase tracking-wider block">Support Email</label>
-                <input type="email" name="site_email" value="{{ $settings['site_email'] ?? 'support@urbannursery.com' }}" placeholder="support@urbannursery.com"
+                <input type="email" name="site_email" value="{{ $settings['site_email'] ?? 'support@indinursery.com' }}" placeholder="support@indinursery.com"
                        class="w-full border border-slate-200 focus:ring-1 focus:ring-[#C49A6C] focus:border-[#C49A6C] rounded-xl text-sm px-4 py-2.5 bg-white">
             </div>
 

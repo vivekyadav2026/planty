@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Complete Payment Ã¢â‚¬â€ Urban Nursery')
+@section('title', 'Complete Payment Ã¢â‚¬â€ IndiNursery')
 
 @section('content')
 <div class="min-h-[70vh] flex items-center justify-center px-4 py-10 bg-slate-50">

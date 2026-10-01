@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="csrf-token" content="{{ csrf_token() }}">
-<title>Shop Online - Urban Nursery</title>
-<meta name="description" content="Shop the finest selection of plants and accessories at Urban Nursery. Fast shipping across India.">
-<meta name="keywords" content="plants, nursery, indoor plants, outdoor plants, Urban Nursery">
+<title>Shop Online - IndiNursery</title>
+<meta name="description" content="Shop the finest selection of plants and accessories at IndiNursery. Fast shipping across India.">
+<meta name="keywords" content="plants, nursery, indoor plants, outdoor plants, IndiNursery">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ url('/shop') }}">
 
@@ -16,15 +16,15 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ url('/shop') }}">
-<meta property="og:title" content="Shop Online - Urban Nursery">
-<meta property="og:description" content="Shop the finest selection of plants and accessories at Urban Nursery. Fast shipping across India.">
+<meta property="og:title" content="Shop Online - IndiNursery">
+<meta property="og:description" content="Shop the finest selection of plants and accessories at IndiNursery. Fast shipping across India.">
 <meta property="og:image" content="https://images.unsplash.com/photo-1604762512526-b7ce049b5768?q=80&w=1600&auto=format&fit=crop">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="{{ url('/shop') }}">
-<meta name="twitter:title" content="Shop Online - Urban Nursery">
-<meta name="twitter:description" content="Shop the finest selection of plants and accessories at Urban Nursery. Fast shipping across India.">
+<meta name="twitter:title" content="Shop Online - IndiNursery">
+<meta name="twitter:description" content="Shop the finest selection of plants and accessories at IndiNursery. Fast shipping across India.">
 <meta name="twitter:image" content="https://images.unsplash.com/photo-1604762512526-b7ce049b5768?q=80&w=1600&auto=format&fit=crop">
 <link rel="icon" href="{{ asset('favicon.ico') }}">
 

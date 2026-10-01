@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="csrf-token" content="{{ csrf_token() }}">
-<title>Urban Nursery - Bring Nature Home</title>
+<title>IndiNursery - Bring Nature Home</title>
 <meta name="description" content="Buy premium indoor and outdoor plants online.">
 <link rel="icon" href="{{ asset('images/favicon.ico') }}">
 
@@ -399,7 +399,7 @@
               <div class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
             </div>
           </div>
-          <p class="text-muted">"The plants arrived in perfect condition! The packaging was so secure, not a single leaf was damaged. Highly recommend Urban Nursery for indoor plants."</p>
+          <p class="text-muted">"The plants arrived in perfect condition! The packaging was so secure, not a single leaf was damaged. Highly recommend IndiNursery for indoor plants."</p>
         </div>
       </div>
       <div class="col-md-5 mb-3">
@@ -454,11 +454,11 @@
     </div>
   </section>
 
-  <!-- ===================== ABOUT Urban Nursery ===================== -->
+  <!-- ===================== ABOUT IndiNursery ===================== -->
   <section class="mb-5 text-center" style="max-width: 800px; margin: 0 auto;">
-    <h2 class="section-title">About Urban Nursery</h2>
+    <h2 class="section-title">About IndiNursery</h2>
     <p class="text-muted" style="line-height: 1.8; font-size: 1.05rem;">
-      Welcome to Urban Nursery, your ultimate destination for premium indoor and outdoor plants. We believe that integrating nature into your living spaces brings peace, joy, and better health. Our expertly curated selection includes everything from exotic succulents to lush air-purifying foliage, ensuring there's a perfect green companion for everyone. We take pride in our secure packaging and prompt delivery across India, so your plants arrive happy and healthy.
+      Welcome to IndiNursery, your ultimate destination for premium indoor and outdoor plants. We believe that integrating nature into your living spaces brings peace, joy, and better health. Our expertly curated selection includes everything from exotic succulents to lush air-purifying foliage, ensuring there's a perfect green companion for everyone. We take pride in our secure packaging and prompt delivery across India, so your plants arrive happy and healthy.
     </p>
   </section>
 

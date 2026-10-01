@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="csrf-token" content="{{ csrf_token() }}">
-<title>{{ $product->name }} | Urban Nursery</title>
+<title>{{ $product->name }} | IndiNursery</title>
 <meta name="description" content="{{ $product->short_description ?? \Illuminate\Support\Str::limit(strip_tags($product->description), 150) }}">
-<meta name="keywords" content="{{ $product->category->name ?? 'plant' }}, {{ $product->name }}, buy {{ $product->name }} online, Urban Nursery">
+<meta name="keywords" content="{{ $product->category->name ?? 'plant' }}, {{ $product->name }}, buy {{ $product->name }} online, IndiNursery">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ route('product.show', $product->slug) }}">
 
@@ -16,7 +16,7 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="product">
 <meta property="og:url" content="{{ route('product.show', $product->slug) }}">
-<meta property="og:title" content="{{ $product->name }} | Urban Nursery">
+<meta property="og:title" content="{{ $product->name }} | IndiNursery">
 <meta property="og:description" content="{{ $product->short_description ?? \Illuminate\Support\Str::limit(strip_tags($product->description), 150) }}">
 <meta property="og:image" content="{{ $product->primary_image_url }}">
 <meta property="product:price:amount" content="{{ $product->sale_price ?? $product->price }}">
@@ -25,7 +25,7 @@
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="{{ route('product.show', $product->slug) }}">
-<meta name="twitter:title" content="{{ $product->name }} | Urban Nursery">
+<meta name="twitter:title" content="{{ $product->name }} | IndiNursery">
 <meta name="twitter:description" content="{{ $product->short_description ?? \Illuminate\Support\Str::limit(strip_tags($product->description), 150) }}">
 <meta name="twitter:image" content="{{ $product->primary_image_url }}">
 <link rel="icon" href="{{ asset('images/favicon.ico') }}">

@@ -186,13 +186,13 @@
     <!-- Contact Info -->
     <div class="pl-contact-info">
       <span>+91 98765 43210</span>
-      <span>support@urbannursery.com</span>
+      <span>support@indinursery.com</span>
     </div>
 
     <!-- Logo -->
     <a href="{{ route('home') }}" class="pl-logo-area">
       <div class="pl-logo-icon"><i class="bi bi-flower1"></i></div>
-      <div class="pl-logo-text">Urban Nursery</div>
+      <div class="pl-logo-text">IndiNursery</div>
       <div class="pl-logo-curve"></div>
     </a>
 
@@ -264,7 +264,7 @@
     <!-- Logo -->
     <a href="{{ route('home') }}" class="pl-logo-area" style="flex: 1; justify-content: center; text-align: center;">
       <div class="pl-logo-icon" style="font-size: 1.5rem;"><i class="bi bi-flower1"></i></div>
-      <div class="pl-logo-text" style="font-size: 1.2rem; white-space: nowrap;">Urban Nursery</div>
+      <div class="pl-logo-text" style="font-size: 1.2rem; white-space: nowrap;">IndiNursery</div>
       <div class="pl-logo-curve" style="width: 40px; height: 3px;"></div>
     </a>
 
@@ -287,7 +287,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenuOffcanvas" style="width: 280px; z-index: 1055;">
   <div class="offcanvas-header border-bottom">
     <h5 class="offcanvas-title d-flex align-items-center gap-2" style="font-weight: 700; color: #111;">
-      <i class="bi bi-flower1" style="color: #7DA948;"></i> Urban Nursery
+      <i class="bi bi-flower1" style="color: #7DA948;"></i> IndiNursery
     </h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
